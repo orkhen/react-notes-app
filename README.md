@@ -1,4 +1,4 @@
-# Django-React Notes Web App 📝🔗
+# React Notes Web App 📝🔗
 
 Simple Web App to store notes. 
 
