@@ -16,12 +16,12 @@ Clone the repository:
 
 Switch to NotesApp repository:
 
-``` cd ./NotesApp/ ```
+``` cd ./react-notes-app/ ```
 
-Make migrations:
+Install node modules:
 
-``` python manage.py migrate ```
+``` npm i ```
 
 Run the app:
 
-``` python manage.py runserver ```
+``` ng serve ```
