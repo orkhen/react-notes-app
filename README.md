@@ -1,5 +1,6 @@
 # React Notes Web App 📝🔗
-
+## Version with Django Backend in [this repository]([URL or relative path](https://github.com/orkhen/portfolio/tree/main/NotesApp))
+ 
 Simple Web App to store notes. 
 
 🖋️ CRUD functionality: Allows create, edit, and delete functionality ✅
