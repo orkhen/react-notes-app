@@ -11,7 +11,7 @@ const NodesListPage = () => {
   }, [])
   
   const getNotes = async () => {
-    const response = await fetch('http://localhost:8000/notes')
+    const response = await fetch('https://dj-react-notesapp-b38385cac4bd.herokuapp.com/notes')
     const data = await response.json()
     setNotes(data)
 

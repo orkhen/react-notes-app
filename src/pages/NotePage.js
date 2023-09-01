@@ -17,7 +17,7 @@ const NotePage = () => {
       if (id === 'new') {
         return
       }
-      const response = await fetch(`http://localhost:8000/notes/${id}`)
+      const response = await fetch(`https://dj-react-notesapp-b38385cac4bd.herokuapp.com/notes/${id}`)
       const data = await response.json()
       setNote(data)
     }
