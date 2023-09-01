@@ -23,7 +23,7 @@ const NotePage = () => {
     }
 
     const createNote = async () => {
-      await fetch(`http://localhost:8000/notes/`, {
+      await fetch(`https://dj-react-notesapp-b38385cac4bd.herokuapp.com/notes/`, {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
@@ -33,7 +33,7 @@ const NotePage = () => {
     }
 
     const updateNote = async () => {
-      await fetch(`http://localhost:8000/notes/${id}`, {
+      await fetch(`https://dj-react-notesapp-b38385cac4bd.herokuapp.com/notes/${id}`, {
           method: 'PUT',
           headers: {
               'Content-Type': 'application/json'
@@ -43,7 +43,7 @@ const NotePage = () => {
     }
 
     const deleteNote = async () => {
-      await fetch(`http://localhost:8000/notes/${id}`, {
+      await fetch(`https://dj-react-notesapp-b38385cac4bd.herokuapp.com/notes/${id}`, {
           method: 'DELETE',
           headers: {
               'Content-Type': 'application/json'
